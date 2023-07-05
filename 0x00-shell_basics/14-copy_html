@@ -1,0 +1,2 @@
+#!/bin/bash
+find $(pwd) -maxdepth 1 -type f -name "*.html" -newer $(dirname "$source_dir") -exec cp -u -t $(dirname "$source_dir") {} +
