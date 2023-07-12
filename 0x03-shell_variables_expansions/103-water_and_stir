@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -n "$WATER$STIR" | tr -d 'waterstir' | tr 'ewrat' '01234' | tr -d '\n' | tr -d ' ' | tr '01234' 'bestchol'

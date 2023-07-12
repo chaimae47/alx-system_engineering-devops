@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c 'for((i=10;i<36;i++)){ printf %b\\n $(printf '\\x%02x' $i)$(printf '\\x%02x' $i); }'
+echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo"
